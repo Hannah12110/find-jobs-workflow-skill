@@ -1,0 +1,4 @@
+interface:
+  display_name: "面试辅导助手"
+  short_description: "基于简历的面试前备考、面试后复盘与多次面试聚合分析助手"
+  default_prompt: "请使用 $interview-coaching-assistant，基于我的简历生成目标岗位面试备考题库并支持复盘。你也可以直接粘贴小红书经验贴链接或正文，我会优先解析并提炼高频面试题。"

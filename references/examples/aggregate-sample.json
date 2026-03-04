@@ -1,0 +1,44 @@
+{
+  "mode": "aggregate",
+  "meta": {
+    "role": "前端开发工程师",
+    "interview_count": 5
+  },
+  "overview": {
+    "interviews": 5,
+    "companies": 5,
+    "questions": 42,
+    "high_freq_points": 12
+  },
+  "high_frequency_topics": [
+    {
+      "name": "React性能优化",
+      "count": 5,
+      "mastery": "弱",
+      "intent": "技术深度",
+      "questions": ["你用过哪些性能优化方法？", "如何定位性能瓶颈？"],
+      "performance": "缺少项目级数据与原理解释"
+    }
+  ],
+  "swot": {
+    "strengths": ["网络协议基础较扎实"],
+    "weaknesses": ["工程化与性能优化薄弱"],
+    "next_actions": ["先突破React性能优化", "补工程化案例"]
+  },
+  "plan": {
+    "urgent": ["准备2个性能优化STAR案例"],
+    "important": ["补前端工程化知识图谱"],
+    "longterm": ["形成持续复盘机制"]
+  },
+  "resources": ["React 官方性能优化文档", "Webpack 官方文档"],
+  "personalized_question_bank": [
+    {
+      "question": "你如何做React性能优化？",
+      "priority": "超高",
+      "mastery": "弱"
+    }
+  ],
+  "facts": ["5次面试中同类问题高频出现"],
+  "inferences": ["聚焦少数高频点可快速提分"],
+  "data_needed": ["每次面试题目明细表"]
+}

@@ -1,0 +1,42 @@
+{
+  "mode": "pre",
+  "meta": {
+    "company": "字节跳动",
+    "role": "前端开发工程师",
+    "round": "二面"
+  },
+  "resume_highlights": [
+    {
+      "type": "技术亮点",
+      "text": "在电商项目中将核心接口 TP99 从 480ms 降到 160ms",
+      "source": "电商商品系统",
+      "question_map": "性能优化、缓存策略"
+    }
+  ],
+  "match_analysis": {
+    "score": "8/10",
+    "high_matches": ["React + TypeScript 项目经验", "有高并发优化案例"],
+    "low_matches": ["工程化体系表达偏弱"],
+    "prep_advice": ["重点准备工程化与CI/CD案例", "回答中增加数据化对比"]
+  },
+  "question_bank": [
+    {
+      "title": "你做过哪些 React 性能优化？",
+      "source": "小红书",
+      "frequency": "高频",
+      "intent": "技术深度",
+      "star": {
+        "s": "大型商品详情页渲染卡顿",
+        "t": "将首屏耗时从2.1s降至1s内",
+        "a": "使用memo/useMemo、虚拟列表与懒加载",
+        "r": "首屏降至0.9s，转化率提升12%"
+      },
+      "score_points": ["原理解释", "优化取舍", "量化结果"]
+    }
+  ],
+  "interviewer_style": ["二面偏重技术深挖", "会追问方案对比与边界"],
+  "prep_checklist": ["准备2个可量化项目案例", "准备工程化问题回答"],
+  "facts": ["候选人有2个前端项目"],
+  "inferences": ["技术基础较好，需补工程化表达"],
+  "data_needed": ["历史版本构建时长对比"]
+}

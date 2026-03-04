@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>面试备考指南</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f6f8fb; }
+    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 28px; border-radius: 12px; margin-bottom: 20px; }
+    .header h1 { margin: 0; font-size: 28px; }
+    .meta p { margin: 6px 0; opacity: 0.95; }
+    .section { background: #fff; border-radius: 12px; padding: 22px; margin-bottom: 16px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .section h2 { margin-top: 0; color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 8px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .q-item,.qa,.topic { border: 1px solid #e8e8e8; border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+    .star { background: #f3e5f5; border-left: 4px solid #9c27b0; border-radius: 8px; padding: 12px; margin-top: 10px; }
+    .warn { background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; border-radius: 8px; }
+    .ok { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 12px; border-radius: 8px; margin-top: 10px; }
+    .chip { display: inline-block; background: #f0f0f0; border-radius: 999px; padding: 4px 10px; font-size: 12px; margin: 2px 6px 2px 0; }
+    .badge { display: inline-block; border-radius: 999px; padding: 3px 10px; font-size: 12px; margin-right: 6px; }
+    .source { background: #e3f2fd; color: #1565c0; }
+    .high { background: #ffebee; color: #c62828; }
+    .medium { background: #fff3e0; color: #e65100; }
+    .low { background: #e8f5e9; color: #2e7d32; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+    .card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; border-radius: 10px; padding: 14px; text-align: center; }
+    .card .n { font-size: 28px; font-weight: 700; }
+    @media (max-width: 768px) { .grid2, .grid3 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+    <div class="header">
+      <h1>🎯 面试备考指南</h1>
+      <div class="meta">
+        <p><strong>公司：</strong>字节跳动</p>
+        <p><strong>岗位：</strong>前端开发工程师</p>
+        <p><strong>轮次：</strong>二面</p>
+        <p><strong>生成时间：</strong>2026-03-04 21:10</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🧾 简历亮点清单（必含）</h2>
+      <ul><li><strong>技术亮点：</strong>在电商项目中将核心接口 TP99 从 480ms 降到 160ms（对应：电商商品系统；可关联题：性能优化、缓存策略）</li></ul>
+    </div>
+
+    <div class="section">
+      <h2>📌 简历与岗位匹配度</h2>
+      <p><strong>整体匹配度：</strong>8/10</p>
+      <div class="grid2">
+        <div>
+          <h3>✅ 高匹配项</h3>
+          <ul><li>React + TypeScript 项目经验</li><li>有高并发优化案例</li></ul>
+        </div>
+        <div>
+          <h3>⚠️ 低匹配项</h3>
+          <ul><li>工程化体系表达偏弱</li></ul>
+        </div>
+      </div>
+      <h3>🎯 备考策略</h3>
+      <ul><li>重点准备工程化与CI/CD案例</li><li>回答中增加数据化对比</li></ul>
+    </div>
+
+    <div class="section">
+      <h2>💡 高频题库（按优先级）</h2>
+      
+    <div class="q-item">
+      <h3>你做过哪些 React 性能优化？</h3>
+      <p>
+        <span class="badge source">来源：小红书</span>
+        <span class="badge high">频率：高频</span>
+      </p>
+      <p><strong>考察意图：</strong>技术深度</p>
+      <div class="star">
+        <p><strong>STAR参考回答：</strong></p>
+        <p><strong>S：</strong>大型商品详情页渲染卡顿</p>
+        <p><strong>T：</strong>将首屏耗时从2.1s降至1s内</p>
+        <p><strong>A：</strong>使用memo/useMemo、虚拟列表与懒加载</p>
+        <p><strong>R：</strong>首屏降至0.9s，转化率提升12%</p>
+        <p><strong>关键得分点：</strong>原理解释；优化取舍；量化结果</p>
+      </div>
+    </div>
+    
+    </div>
+
+    <div class="section">
+      <h2>🎭 面试官风格分析</h2>
+      <ul><li>二面偏重技术深挖</li><li>会追问方案对比与边界</li></ul>
+    </div>
+
+    <div class="section">
+      <h2>✅ 备考清单</h2>
+      <ul><li>准备2个可量化项目案例</li><li>准备工程化问题回答</li></ul>
+    </div>
+
+    
+    <div class="section">
+      <h2>🧭 事实与推断</h2>
+      <p><strong>事实：</strong>候选人有2个前端项目</p>
+      <p><strong>推断：</strong>技术基础较好，需补工程化表达</p>
+      <p><strong>仍需补充数据：</strong>历史版本构建时长对比</p>
+    </div>
+    
+    
+</body>
+</html>

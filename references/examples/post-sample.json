@@ -1,0 +1,59 @@
+{
+  "mode": "post",
+  "meta": {
+    "company": "腾讯",
+    "role": "前端开发工程师",
+    "round": "一面"
+  },
+  "qa_reviews": [
+    {
+      "question": "介绍一个你做过的性能优化案例",
+      "answer": "我做过缓存优化，效果还不错。",
+      "intent": "技术深度",
+      "scores": {
+        "accuracy": 3,
+        "completeness": 2,
+        "logic": 3,
+        "communication": 3,
+        "fit": 2
+      },
+      "problems": ["缺少量化数据", "技术动作描述太泛"],
+      "suggestions": ["补充优化前后指标", "按STAR结构回答"],
+      "star": {
+        "s": "大促前详情页TP99为480ms",
+        "t": "目标降低至200ms以内",
+        "a": "重构缓存层并增加热点预热",
+        "r": "TP99降至160ms，投诉下降70%"
+      }
+    }
+  ],
+  "summary": {
+    "strengths": ["表达流畅"],
+    "weaknesses": ["数据化不足", "技术细节不够"],
+    "priorities": ["先补齐项目数据", "再强化原理与取舍表达"],
+    "learning_path": ["复盘2个项目并补齐指标", "练习3道高频题STAR回答"]
+  },
+  "resume_diagnosis": {
+    "missing_metrics": "项目结果缺少具体指标",
+    "tech_depth": "只写优化，不写方法与取舍",
+    "result_loop": "缺少上线后业务影响",
+    "differentiation": "优势点未结构化呈现",
+    "narrative": "项目叙述缺背景-行动-结果闭环",
+    "self_intro_2min": "开头30秒给出最强成果数据，再展开项目"
+  },
+  "resume_revisions": [
+    {
+      "before": "负责前端性能优化，提升用户体验。",
+      "after": "主导商品详情页性能优化，TP99从480ms降至160ms，页面转化率提升12%。",
+      "tips": ["数据化表达", "动作可验证"],
+      "data_needed": ["优化前后TP99", "转化率变化"]
+    }
+  ],
+  "resume_checklist": [
+    "所有项目补充量化结果",
+    "每个技术点补充场景和方法"
+  ],
+  "facts": ["本场面试有技术深挖"],
+  "inferences": ["复盘后短期可显著提升"],
+  "data_needed": ["项目真实指标明细"]
+}

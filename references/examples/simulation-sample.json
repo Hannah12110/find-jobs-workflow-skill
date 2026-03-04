@@ -1,0 +1,27 @@
+{
+  "mode": "simulation",
+  "scores": {
+    "accuracy": 3,
+    "completeness": 2,
+    "logic": 3,
+    "communication": 4,
+    "fit": 3
+  },
+  "problems": [
+    "回答不够具体，缺少数据",
+    "STAR结构不完整"
+  ],
+  "suggestions": [
+    "补充项目指标",
+    "按STAR重组表达"
+  ],
+  "star": {
+    "s": "业务增长期，性能瓶颈明显",
+    "t": "把首屏从2s降到1s以内",
+    "a": "做缓存与渲染链路优化",
+    "r": "首屏0.9s，转化提升10%"
+  },
+  "facts": ["表达流畅"],
+  "inferences": ["数据化表达提升空间大"],
+  "data_needed": ["优化前后真实指标"]
+}
