@@ -1,4 +1,4 @@
-# find-jobs-workflow
+# find-jobs-workflow-skill
 
 `find-jobs-workflow` 是一个用于求职全流程的 skill：帮助用户建立可复用背景档案，分析 JD、定制简历、识别短板、跟踪投递，并生成公司风格的面试备考材料。
 
