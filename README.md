@@ -22,7 +22,7 @@
 5. 识别 hard gap / improvable gap / bonus gap  
 6. 更新投递跟踪表  
 7. 生成公司风格的面试问题与面试备考稿  
-8. 衔接面试复盘 workflow  
+8. 衔接面试复盘 workflow（见 [interview-review/](interview-review/SKILL.md)）  
 
 ## 适合什么时候用
 
@@ -43,15 +43,16 @@
 
 ## 主要文件
 
-- [SKILL.md](/Users/asus/Documents/New%20project/find-jobs-workflow/SKILL.md)
-- [references/workflow-overview.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/workflow-overview.md)
-- [references/background-intake-strategy.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/background-intake-strategy.md)
-- [references/project-layering-rules.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/project-layering-rules.md)
-- [references/jd-analysis-output-template.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/jd-analysis-output-template.md)
-- [references/gap-diagnosis-rules.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/gap-diagnosis-rules.md)
-- [references/master-profile-template.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/master-profile-template.md)
-- [references/application-tracker-schema.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/application-tracker-schema.md)
-- [references/interview-question-generation.md](/Users/asus/Documents/New%20project/find-jobs-workflow/references/interview-question-generation.md)
+- [SKILL.md](SKILL.md)
+- [references/workflow-overview.md](references/workflow-overview.md)
+- [references/background-intake-strategy.md](references/background-intake-strategy.md)
+- [references/project-layering-rules.md](references/project-layering-rules.md)
+- [references/jd-analysis-output-template.md](references/jd-analysis-output-template.md)
+- [references/gap-diagnosis-rules.md](references/gap-diagnosis-rules.md)
+- [references/master-profile-template.md](references/master-profile-template.md)
+- [references/application-tracker-schema.md](references/application-tracker-schema.md)
+- [references/interview-question-generation.md](references/interview-question-generation.md)
+- [interview-review/SKILL.md](interview-review/SKILL.md) — 面试复盘子流程（含 references/framework.md、references/visualization.md）
 
 ## 一句话总结
 

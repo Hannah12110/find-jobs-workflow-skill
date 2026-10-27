@@ -23,7 +23,7 @@ Use this skill when the user:
 
 Do not use this skill for:
 - general career advice with no job-search materials
-- standalone interview prep when the workflow should instead hand off to [$interview-coaching-assistant](/Users/asus/.codex/skills/interview-coaching-assistant/SKILL.md)
+- standalone interview prep when the workflow should instead hand off to [interview-review](interview-review/SKILL.md)
 - one-off copy edits when no job-search workflow support is needed
 
 ## Core Rules
@@ -196,7 +196,7 @@ If the user gets an interview:
 - prepare based on actual evidence
 - after the interview, feed outcomes back into the background profile, project narratives, and future tailoring strategy
 
-When the user asks for interview preparation, interview review, or multi-interview pattern analysis, hand off to [$interview-coaching-assistant](/Users/asus/.codex/skills/interview-coaching-assistant/SKILL.md).
+When the user asks for interview preparation, interview review, or multi-interview pattern analysis, hand off to [interview-review](interview-review/SKILL.md).
 
 Use this workflow skill to maintain continuity across the job-search process; use the interview skill for the interview-specific deep work.
 
